@@ -19,3 +19,5 @@ mongoose.connect(
     useFindAndModify: false,
   }
 );
+
+app.listening(PORT, () => console.log('Now listening'));
