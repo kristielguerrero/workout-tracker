@@ -8,6 +8,7 @@ const app = express();
 app.use(logger('dev'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
 app.use(express.static('public'));
 
 mongoose.connect(
@@ -19,5 +20,7 @@ mongoose.connect(
     useFindAndModify: false,
   }
 );
+
+app.use(routes);
 
 app.listening(PORT, () => console.log(`Now listening on ${PORT}`));
