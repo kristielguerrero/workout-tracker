@@ -20,4 +20,4 @@ mongoose.connect(
   }
 );
 
-app.listening(PORT, () => console.log('Now listening'));
+app.listening(PORT, () => console.log(`Now listening on ${PORT}`));
