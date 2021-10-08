@@ -13,3 +13,7 @@ This application tracks your workout progress to keep and achieve any of your fi
 - Github: https://github.com/kristielguerrero
 - Email: kristyguerrero20@gmail.com
 - LinkedIn: https://www.linkedin.com/in/kristiel-guerrero-093170207/
+
+![workout](/assets/workout-dashboard.png)
+![workout](/assets/new-workout.png)
+![workout](/assets/last-workout.png)
